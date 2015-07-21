@@ -32,7 +32,6 @@ $(document).ready(function() {
 		$('.ryu-cool').show();
 	})
 	$(document).keydown(function() {
-		// THIS WORKED --> alert("keydown instantiated");
 		if(event.keyCode == 88) {
 			$('.ryu-still').hide();
 		    $('.ryu-ready').hide();
