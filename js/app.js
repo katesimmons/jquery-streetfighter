@@ -24,7 +24,27 @@ $(document).ready(function() {
 	.mouseup(function() {
 		$('.ryu-throwing').hide();
 		$('.ryu-still').show();
-	});
+	}) 
+	.keydown(function() {
+		$('.ryu-still').hide();
+		$('.ryu-ready').hide();
+		$('.ryu-throwing').hide();
+		$('.ryu-cool').show();
+	})
+	$(document).keydown(function() {
+		// THIS WORKED --> alert("keydown instantiated");
+		$('.ryu-still').hide();
+		$('.ryu-cool').show();
+	})
+
+
+	//.keydown(function() {
+		//pressing x makes him 'look cool'
+		// if(event.keyCode == 88) {}
+	//})
+	//.keyup(function() {
+		//releasing x makes him go back to standing still
+	//})
 });
 
 function playHadouken () {
