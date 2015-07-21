@@ -43,15 +43,6 @@ $(document).ready(function() {
 		$('.ryu-cool').hide();
 		$('.ryu-still').show();
 	})
-
-
-	//.keydown(function() {
-		//pressing x makes him 'look cool'
-		// if(event.keyCode == 88) {}
-	//})
-	//.keyup(function() {
-		//releasing x makes him go back to standing still
-	//})
 });
 
 function playHadouken () {
